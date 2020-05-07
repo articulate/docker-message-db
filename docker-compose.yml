@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  db:
+    build:
+      args:
+        MESSAGE_DB_VERSION: ${MESSAGE_DB_VERSION:-1.2.2}
+      context: .
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    expose:
+      - '5432'
