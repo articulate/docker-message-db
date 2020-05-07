@@ -1,5 +1,5 @@
 FROM postgres:latest
-ARG MESSAGE_DB_VERSION=1.2.2
+ARG MESSAGE_DB_VERSION
 
 WORKDIR /usr/src
 ADD https://github.com/message-db/message-db/archive/v${MESSAGE_DB_VERSION}.tar.gz message-db.tar.gz
