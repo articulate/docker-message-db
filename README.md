@@ -1,4 +1,5 @@
-# docker-message-db
+# articulate/message-db
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/articulate/message-db) ![Docker Pulls](https://img.shields.io/docker/pulls/articulate/message-db)
 
 Docker image for [Message DB](https://github.com/message-db/message-db), built on `postgres:latest`.
 
