@@ -1,6 +1,6 @@
 # docker-message-db
 
-> What it says on the tin: a Message DB Docker image for development.
+Docker image for [Message DB](https://github.com/message-db/message-db), built on `postgres:latest`.
 
 ## Usage
 
