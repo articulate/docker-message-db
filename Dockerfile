@@ -1,4 +1,5 @@
-FROM postgres:latest
+ARG POSTGRES_VERSION=latest
+FROM postgres:${POSTGRES_VERSION}
 ARG MESSAGE_DB_VERSION
 
 WORKDIR /usr/src
